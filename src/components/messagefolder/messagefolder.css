@@ -1,0 +1,53 @@
+.messageFolderBackground{
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    bottom: 0;
+    background-color: #b5e5ff;
+    right: 0%;
+    z-index: 1202;
+    border-color: #8ad6ff;
+    border-style: solid;
+
+    border-bottom-width: 0;
+    border-right-width: 0;
+
+    transition: 0.5s;
+}
+
+.messageFolderHeader{
+    width: 100%;
+    height: 10%;
+    background-color: #8ad6ff;
+    margin: 0;
+    padding: 5%;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.messageFolderHeader > p {
+    margin: 0;
+
+    text-align: center;
+}
+
+.messageFolderHeaderArrow{
+    background-color: #b5e5ff;
+    border-radius: 100%;
+    width: 10%;
+    transition: 0.5s;
+
+}
+
+.messageFolderHeaderArrow:hover{
+    background-color: hsl(201, 53%, 63%);
+}
+
+.messageFolderMessages{
+    width: 100%;
+    height: 90%;
+
+    overflow-y: scroll;
+}

@@ -1,0 +1,222 @@
+.App {
+  text-align: center;
+  max-width: 1080px;
+  margin: 0 auto;
+  background-color: #b5e5ff;
+  height: 100%;
+
+  overflow: hidden;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.wrapper{
+  align-items: center;
+
+  background: rgb(101,201,255);
+  background: linear-gradient(33deg, rgba(101,201,255,1) 0%, rgba(255,255,255,0) 44%);
+
+  height: 100%;
+  width: 100%;
+
+  overflow: hidden;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+#loadScreen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+
+  background-color: #61dafb;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  z-index: 2000000;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.fittAll{
+  height: 90%;
+  width: 100%;
+
+  z-index: 10;
+
+  position: relative;
+
+
+  transition: 0.5s;
+}
+
+.posts{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow-y: scroll;
+
+  width: 100%;
+  height: 88%;
+
+  transition: 0.5s;
+
+  margin-bottom: 5%;
+}
+
+.filterSection {
+  position: relative;
+
+  display: flex;
+
+  flex-direction: column;
+
+  z-index: 10;
+ 
+  justify-content: center;
+  align-content: flex-start;
+
+  width: 100%;
+  height: 12%;
+
+}
+
+.newPostLoader {
+  width: 100%;
+  height: 10%;
+
+  margin-top: 5%;
+
+  display: flex;
+
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.newPostLoaderLoadSign{
+  height: 80%;
+}
+
+.filterSignDiv{
+  height: 41.666666666666666666666666666667%;
+
+  align-self: center;
+  justify-self: center;
+
+  background-color: #8cd7ff;
+
+  margin: 0 auto;
+
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 25%;
+}
+
+.filterSign{
+  height: 80%;
+}
+
+.filters{
+  height: 58.333333333333336%;
+
+  width: 100%;
+
+
+  background-color: #8cd7ff;
+}
+
+.chats {
+  position: absolute;
+  bottom: -45vh;
+  width: 70%;
+  overflow: visible;
+  display: flex;
+  flex-direction: row-reverse;
+
+
+  z-index: 60;
+}
+
+.chats::-webkit-scrollbar{
+  display: none;
+
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 1s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #8cd7ff; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  transition: 1s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+  border-radius: 0;
+}

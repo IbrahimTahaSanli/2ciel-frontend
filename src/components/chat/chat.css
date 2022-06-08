@@ -1,0 +1,64 @@
+.chatBackground{
+    position: relative;
+    width: 30vw;
+    height: 50vh;
+    bottom: 0;
+    background-color: #b5e5ff;
+    right: 0%;
+    z-index: 1202;
+    border-color: #8ad6ff;
+    border-style: solid;
+
+    border-bottom-width: 0;
+    border-right-width: 0;
+
+    transition: 0.5s;
+
+    flex-shrink: 0;
+}
+
+.chatHeader{
+    width: 100%;
+    height: 10%;
+    background-color: #8ad6ff;
+    margin: 0;
+    padding: 5%;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.chatHeader > p {
+    margin: 0;
+
+    text-align: center;
+}
+
+.chatHeaderArrow{
+    background-color: #b5e5ff;
+    border-radius: 100%;
+    width: 10%;
+    transition: 0.5s;
+
+}
+
+.chatHeaderArrow:hover{
+    background-color: hsl(201, 53%, 63%);
+}
+
+.chatMessages{
+    width: 100%;
+    height: 90%;
+
+    overflow-y: scroll;
+    padding-bottom: 10%;
+}
+
+.chatInputDiv{
+    position: relative;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    transform: translate(0, -100%); 
+}

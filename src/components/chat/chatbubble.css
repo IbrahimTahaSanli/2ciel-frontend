@@ -1,0 +1,32 @@
+.chatBubbleBackground {
+    width: 100%;
+    height: min-content;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.chatBubble {
+    width: fit-content;
+    height: min-content;
+    max-width: 90%;
+    background-color: #84b6d1;
+    margin: 1% 2%;
+    border-radius: 5%;
+
+    align-self: flex-start;
+    justify-self: flex-end;
+}
+
+.chatBubble > p{
+    padding: 2%;
+    overflow-wrap: break-word;
+}
+
+.chatBubbleLeft{
+    align-self: flex-start;
+}
+
+.chatBubbleRight{
+    align-self: flex-end;
+}

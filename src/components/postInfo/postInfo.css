@@ -1,0 +1,88 @@
+.postInfaFirstBackground{
+    background-color: rebeccapurple !important;
+    width: 80%;
+    height: 80%;
+    border-radius: 5%;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.postImgs {
+    width: 100%;
+    height: 100%;
+
+    background-size: 100% 100%;
+    transition: 0.2s;
+}
+
+.postInfoArrows{
+    color: white;
+    align-self: center;
+    z-index: 1;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    background-color: rgba(170, 170, 170, 0.250);
+    font-size: 5em;
+}
+
+.postInfoImages{
+    width: 70%;
+    height: 80%;
+    display: flex;
+}
+
+.postInfoDetails{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    overflow-y: scroll;
+}
+
+.postMapDiv{
+    position: absolute;
+    top: 95%;
+    height: 90%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    transition: 1s;
+    z-index: 2;
+}
+
+.postMapSignDiv {
+    background-color: #aaaa;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+
+    width: 10%;
+    height: 5%;
+
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+.postMapSign{
+    color: white;
+}
+
+#map{
+    height: 95%;
+    width: 100%;
+
+    background-color: wheat;
+
+    margin: 0 auto;
+
+}

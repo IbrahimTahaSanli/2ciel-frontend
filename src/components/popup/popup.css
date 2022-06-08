@@ -1,0 +1,35 @@
+.popupParent{
+    position: absolute;
+    min-width: 10vw;
+    min-height: 10vh;
+    max-width: 40vw;
+    max-height: 96vh;
+
+
+    background-color: #234254;
+
+    z-index: 999999999;
+
+    bottom: 2vh;
+    left: 50vw;
+
+    border-radius: 5%;
+
+    align-content: center;
+    justify-content: center;
+
+    text-align: center;
+
+    transform: translate(-50%, 0%);
+
+    overflow: hidden;
+
+    transition: 1s;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.popoutText {
+    color: #fafafa;
+}

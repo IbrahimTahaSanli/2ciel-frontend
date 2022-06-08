@@ -1,0 +1,72 @@
+.tileSelf{
+    display: block;
+
+    min-width: 300px;
+    min-height: 300px;
+
+    max-height: 20%;
+    max-width: 20%;
+
+    flex: 1;
+
+    background-color: #65c9ff;
+    border-radius: 5%;
+    border-color: transparent;
+  
+
+    overflow: hidden;
+
+    align-items: center;
+    justify-content: center;
+
+
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+
+}
+
+.productImage{
+    height: 70%;
+    width: 100%;
+
+    background-size: 100% 100%;;
+}
+
+.tileSelf > h1{
+    height: 10%;
+    font-size: 1em;
+    margin: 0;
+    color: #0e4868;
+
+}
+
+.tilePrice{
+    height: 10%;
+    margin: 0;
+    color: #0e4868;
+
+}
+
+.tileMessage{
+    height: 10%;
+    margin: 0 auto;
+    background-color: #FDC849;
+
+    width: fit-content;
+
+    border-color: transparent;
+    border-radius: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.tileMessageText{
+    font-size: 1.3em;
+    font-weight:bold;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    color: #106b9c;
+}
